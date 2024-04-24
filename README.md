@@ -12,6 +12,8 @@
 
 &emsp;&emsp;[List of supported partners](https://learn.microsoft.com/en-us/azure/virtual-wan/virtual-wan-locations-partners#partners-with-integrated-virtual-hub-offerings)
 
+&emsp;&emsp;[Throughput considerations and underlay options](https://techcommunity.microsoft.com/t5/azure-networking-blog/managed-sd-wan-in-vwan-throughput-considerations-and-underlay/ba-p/4097864)
+
 2️⃣ 𝐕𝐌-𝐬𝐞𝐫𝐢𝐞𝐬 𝐝𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭𝐬 also allow to stretch the SDWAN overlay up to virtual SDWAN appliances, here within your customer-managed VNet. This solution requires 𝘮𝘢𝘯𝘶𝘢𝘭 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 and leverages BGP endpoint in virtual WAN, or the Azure Route Server (ARS) in Hub & Spoke, for dynamic route exchange. Depending on the complexity of your addressing plan, static routing may also be possible.
 
 &emsp;&emsp;https://learn.microsoft.com/en-us/azure/architecture/networking/guide/sdwan-integration-in-hub-and-spoke-network-topologies
